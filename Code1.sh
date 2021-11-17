@@ -14,27 +14,43 @@ ask="${cyan}[${white}?${cyan}] ${purple}"
 error="${cyan}[${white}!${cyan}] ${red}"
 success="${cyan}[${white}√${cyan}] ${green}"
 
+sed -i 's/\r//' Code1.sh
+cd
+cd storage
+mkdir Hack
+clear
 
 figlet -f small YongScript v1
 echo -e "${green}Enter Your Choice :"
 echo -e "${blue}[1] CamHacker"
 echo -e "${blue}[2] LiteDdos"
+echo -e "${blue}[3] NitroGen"
 read OwO
 if [ $OwO -eq 1 ]
 then
 cd
 cd storage
-cd Hacks 
+cd Hack
 git clone https://github.com/KasRoudra/CamHacker
+clear
 bash Code1.sh
 elif [ $OwO -eq 2 ]
 then
 cd
 cd storage
-cd Hacks
+cd Hack
 git clone https://github.com/4L13199/LITEDDOS
+clear
 bash Code1.sh
-elif [ $OwO -gt 2 ]
+elif [ $OwO -eq 3 ]
 then
-  echo -e "${green}Invalid Choices"
+cd
+cd storage
+cd Hacks
+git clone https://github.com/YongSheng109/Nitro-gen.git
+clear
+bash Code1.sh
+elif [ $OwO -gt 3 ]
+then
+echo -e "${green}Invalid Choices"
 fi
