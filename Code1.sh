@@ -32,6 +32,9 @@ cd
 cd storage
 cd Hack
 git clone https://github.com/KasRoudra/CamHacker
+cd
+cd storage
+cd YongScript-v1
 clear
 bash Code1.sh
 elif [ $OwO -eq 2 ]
@@ -40,6 +43,9 @@ cd
 cd storage
 cd Hack
 git clone https://github.com/4L13199/LITEDDOS
+cd
+cd storage
+cd YongScript-v1
 clear
 bash Code1.sh
 elif [ $OwO -eq 3 ]
@@ -48,6 +54,9 @@ cd
 cd storage
 cd Hacks
 git clone https://github.com/YongSheng109/Nitro-gen.git
+cd
+cd storage
+cd YongScript-v1
 clear
 bash Code1.sh
 elif [ $OwO -gt 3 ]
