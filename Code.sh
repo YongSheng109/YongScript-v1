@@ -20,6 +20,8 @@ apt upgrade -y && apt update
 pkg upgrade -y && pkg update
 pkg install figlet
 
+sed -i 's/\r//' Code1.sh
+
 clear
 
 figlet -f small YongScript v1
@@ -45,7 +47,3 @@ echo -e "${blue}Installed Nano, Git, Wget, Python, Python2, Bash, Nodejs"
 sleep 5
 clear
 bash Code1.sh
-
-
-
-
