@@ -28,7 +28,7 @@ sed -i 's/\r//' Code1.sh
 
 clear
 
-figlet -f small YongScript v1
+figlet -f small YongScript
 echo -e "${green}All Updates Are Installed Succesfully"
 echo -e "${green}Now Going To Download Usefull Package"
 
@@ -46,7 +46,7 @@ pkg install nodejs -y
 
 clear
 
-figlet -f small YongScript v1
+figlet -f small YongScript
 echo -e "${blue}Installed Nano, Git, Wget, Python, Python2, Bash, Nodejs"
 sleep 5
 clear
