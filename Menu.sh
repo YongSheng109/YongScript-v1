@@ -14,6 +14,7 @@ ask="${cyan}[${white}?${cyan}] ${purple}"
 error="${cyan}[${white}!${cyan}] ${red}"
 success="${cyan}[${white}√${cyan}] ${green}"
 
+pkg install figlet
 clear
 
 figlet -f small YongScript v1
