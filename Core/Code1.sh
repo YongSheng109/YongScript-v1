@@ -96,10 +96,11 @@ cd YongScript-v1
 clear
 bash Start.sh
 read OwO
-elif [ $OwO -eq x ]
+elif [ $OwO -eq x ];
+then
 echo -e "${green}Exiting"
 exit
-elif [ $OwO -gt 5 ]
+elif [ $OwO -gt 5 ];
 then
 echo -e "${green}Invalid Choices"
 fi
