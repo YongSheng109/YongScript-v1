@@ -68,5 +68,6 @@ echo -e "${yellow}Thanks For Using Our Tool"
 sleep 10
 bash Menu.sh
 elif [ $OwO -gt 4 ]
+then
 echo -e "${green}Invalid Choices"
 fi
