@@ -23,7 +23,7 @@ cd storage
 mkdir Hack
 clear
 
-figlet -f small YongScript v1
+figlet -f small YongScript
 echo -e "${green}Enter Your Choice :"
 echo -e "${blue}[1] CamHacker"
 echo -e "${blue}[2] LiteDdos"
