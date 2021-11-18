@@ -30,7 +30,8 @@ echo -e "${blue}[2] LiteDdos"
 echo -e "${blue}[3] NitroGen"
 echo -e "${blue}[4] ZipBomb"
 echo -e "${blue}[5] Raid-ToolBox"
-echo -e "${red}[x] Exit"
+echo -e "${red}[x
+0] Exit"
 read OwO
 if [ $OwO -eq 1 ];
 then
@@ -96,7 +97,7 @@ cd YongScript-v1
 clear
 bash Start.sh
 read OwO
-elif [ $OwO -eq x ];
+elif [ $OwO -eq 0 ];
 then
 echo -e "${green}Exiting"
 exit
