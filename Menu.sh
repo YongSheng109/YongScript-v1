@@ -17,7 +17,7 @@ success="${cyan}[${white}√${cyan}] ${green}"
 pkg install figlet
 clear
 
-figlet -f standard YongScript v1
+figlet -f small YongScript
 echo -e "${green}Enter Your Choice :"
 echo -e "${cyan}[1] Updates & Packages"
 echo -e "${cyan}[2] Main Menu"
