@@ -13,6 +13,9 @@ cd
 cd storage
 ```
 ```
+apt upgrade
+```
+```
 pkg install git
 ```
 ```
