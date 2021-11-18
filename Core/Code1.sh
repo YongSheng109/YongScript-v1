@@ -95,6 +95,7 @@ cd storage
 cd YongScript-v1
 clear
 bash Start.sh
+read OwO
 elif [ $OwO -eq x ]
 echo -e "${green}Exiting"
 exit
