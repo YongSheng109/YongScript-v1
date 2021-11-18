@@ -30,6 +30,7 @@ echo -e "${blue}[2] LiteDdos"
 echo -e "${blue}[3] NitroGen"
 echo -e "${blue}[4] ZipBomb"
 echo -e "${blue}[5] Raid-ToolBox"
+echo -e "${red}[x] Exit"
 read OwO
 if [ $OwO -eq 1 ];
 then
@@ -94,6 +95,9 @@ cd storage
 cd YongScript-v1
 clear
 bash Start.sh
+elif [ $OwO -eq x ]
+echo -e "${green}Exiting"
+exit
 elif [ $OwO -gt 5 ]
 then
 echo -e "${green}Invalid Choices"
