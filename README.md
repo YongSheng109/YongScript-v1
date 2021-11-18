@@ -1,6 +1,6 @@
 This Tool Has Amazing Features Like :
 Nitro Generator, LiteDdos And More!
-I'm Updating This Tool To Make It More Better
+I'm Updating This Tool To Make It More Better!
 
 Installation:
 
