@@ -11,6 +11,9 @@ cd
 cd storage
 ```
 ```
+pkg install git
+```
+```
 git clone https://github.com/YongSheng109/YongScript-v1.git
 ```
 ```
