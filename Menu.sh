@@ -49,9 +49,23 @@ cd
 cd storage
 cd YongScript-v1
 clear
+echo -e "${green}'cd && cd storage && cd Hack' - The Hacks You Installed Will Be Shown Here"
+echo -e "${green}'ls' Will Show What Hack You Have And You Can Use 'cd (Hack)'"
+echo -e "${green}'bash (Name).sh / python (name).py' For Python You Need To Install Reqiurments"
+echo -e "${green}'pip install -r (reqiurment).txt'"
+echo "CTRL C to Exit"
+sleep 100000
+elif [ $OwO -eq 4 ]
+then
+cd
+cd storage
+cd YongScript-v1
+clear
 echo -e "${green}Discord: YongSheng_#1976"
 echo -e "${blue}PayPal: https://www.paypal.me/YongShengOwO"
 echo -e "${yellow}Thanks For Using Our Tool"
 sleep 10
 bash Menu.sh
+elif [ $OwO -gt 4 ]
+echo -e "${green}Invalid Choices"
 fi
