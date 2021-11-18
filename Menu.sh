@@ -21,7 +21,8 @@ figlet -f small YongScript
 echo -e "${green}Enter Your Choice :"
 echo -e "${cyan}[1] Updates & Packages"
 echo -e "${cyan}[2] Main Menu"
-echo -e "${cyan}[3] Info"
+echo -e "${cyan}[3] Hacks Info"
+echo -e "${cyan}[4] Creator Info"
 
 read OwO
 if [ $OwO -eq 1 ]
