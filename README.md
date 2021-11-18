@@ -3,7 +3,9 @@ Nitro Generator, LiteDdos And More!
 I'm Updating This Tool To Make It More Better!
 
 Installation:
-
+```
+termux-setup-storage
+```
 ```
 cd
 ```
