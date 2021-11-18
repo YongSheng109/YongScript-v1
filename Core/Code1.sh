@@ -39,7 +39,6 @@ git clone https://github.com/KasRoudra/CamHacker
 cd
 cd storage
 cd YongScript-v1
-cd Core
 clear
 bash Start.sh
 read OwO
@@ -52,7 +51,6 @@ git clone https://github.com/4L13199/LITEDDOS
 cd
 cd storage
 cd YongScript-v1
-cd Core
 clear
 bash Start.sh
 read OwO
@@ -65,7 +63,6 @@ git clone https://github.com/YongSheng109/Nitro-gen.git
 cd
 cd storage
 cd YongScript-v1
-cd Core
 clear
 bash Start.sh
 read OwO
@@ -82,7 +79,6 @@ sleep 10
 cd
 cd storage
 cd YongScript-v1
-cd Core
 clear
 bash Start.sh
 elif [ $OwO -gt 4 ]
