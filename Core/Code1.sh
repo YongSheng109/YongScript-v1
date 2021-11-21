@@ -30,8 +30,8 @@ echo -e "${blue}[2] LiteDdos"
 echo -e "${blue}[3] NitroGen"
 echo -e "${blue}[4] ZipBomb"
 echo -e "${blue}[5] Raid-ToolBox"
-echo -e "${red}[x
-0] Exit"
+echo -e "${blue}[6] PasswordGen"
+echo -e "${red}[x] Exit"
 read OwO
 if [ $OwO -eq 1 ];
 then
@@ -96,12 +96,24 @@ cd storage
 cd YongScript-v1
 clear
 bash Start.sh
-read OwO
-elif [ $OwO -eq 0 ];
+elif [ $OwO -eq 6 ];
 then
-echo -e "${green}Exiting"
-exit
-elif [ $OwO -gt 5 ];
+cd
+cd storage
+cd Hack
+git clone https://github.com/YongSheng109/PasswordGen.git
+cd
+cd storage
+cd YongScript-v1
+clear
+bash Start.sh
+read OwO
+elif [ $OwO -gt 6 ];
 then
 echo -e "${green}Invalid Choices"
+sleep 2
+cd
+cd storage
+cd YongScript-v1
+bash Start.sh
 fi
