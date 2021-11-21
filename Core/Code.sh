@@ -43,11 +43,25 @@ pkg install python -y
 pkg install python2 -y
 pkg install bash -y
 pkg install nodejs -y
+pkg install ruby -y
+pkg install php -y
+apt install perl -y
+pkg install nmap -y
+pkg install clang -y
+pkg install jq -y
+pkg install macchanger -y
+pkg install curl -y
+pkg install tar -y
+pkg install zip -y
+pkg install unzip -y
+pkg install wcalc -y
+pkg install openssl -y
+pkg install bmon -y
 
 clear
 
 figlet -f small YongScript
-echo -e "${blue}Installed Nano, Git, Wget, Python, Python2, Bash, Nodejs"
+echo -e "${blue}Installed All Termux Packages"
 sleep 5
 clear
 cd
